@@ -36,6 +36,8 @@ Screenshots
 -----------
 
 1. This screenshot represents the plugin admin page (in settings menu) 
+  !(screenshot-1.png)
+
 2. This is the screenshot of the widget configuration 
 
 Upgrade Notice
