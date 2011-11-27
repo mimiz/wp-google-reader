@@ -1,0 +1,151 @@
+# Translation of the WordPress plugin Google Reader 1.0 by Rémi Goyard.
+# Copyright (C) 2010 Rémi Goyard
+# This file is distributed under the same license as the Google Reader package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Google Reader 1.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/google-reader\n"
+"POT-Creation-Date: 2010-10-31 19:02+0100\n"
+"PO-Revision-Date: 2010-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: form.php:6
+msgid "Title"
+msgstr ""
+
+#: form.php:10
+msgid "Cache"
+msgstr ""
+
+#: form.php:25
+msgid "Number of elements to retreive "
+msgstr ""
+
+#: form.php:29
+msgid "Type"
+msgstr ""
+
+#: form.php:37
+msgid "Tag Name"
+msgstr ""
+
+#: form.php:41
+msgid "You must define your google account, go to Settings / Google Reader ..."
+msgstr ""
+
+#: google-reader.php:43
+msgid ""
+"GOOGLE READER  : Plugin WP-ZFF Zend Framework Full is needed please install "
+"it !"
+msgstr ""
+
+#. #-#-#-#-#  google-reader.pot (Google Reader 1.0)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: google-reader.php:64 options.php:3
+msgid "Google Reader"
+msgstr ""
+
+#: google-reader.php:80
+msgid ""
+"<p>You must provide your Google Account information, ie, your Login(email) / "
+"Password.<br />you can acces these informations :</"
+"p><ul><li><strong>starred</strong> : Items starred in Google Reader</"
+"li><li><strong>shared</strong> : Items shared in Google Reader</"
+"li><li><strong>tag</strong> : items tagged with specific tag</"
+"li><li><strong>read</strong> : Items read in Google Reader</"
+"li><li><strong>reading-list</strong> : Items in the reading list</li></"
+"ul><p>just try ...</p><p>Getting Google Reader items may be quite long, so "
+"use cache to save data and not reload items from google for every user</"
+"p><p>You must provide a full path to a writable directory</p>"
+msgstr ""
+
+#: GoogleReaderSettingsValidator.php:19
+msgid ""
+"Your Google Login must be a valid email address. Please enter a valid email "
+"address."
+msgstr ""
+
+#: GoogleReaderSettingsValidator.php:80
+#, php-format
+msgid "%s is not a valid directory"
+msgstr ""
+
+#: GoogleReaderSettingsValidator.php:88
+#, php-format
+msgid "%s is required"
+msgstr ""
+
+#: GoogleReaderSettingsValidator.php:91
+#, php-format
+msgid "Directory %s is not writable, please set permission at least to 755"
+msgstr ""
+
+#: GoogleReaderSettingsValidator.php:94
+#, php-format
+msgid "%s is not a valid integer"
+msgstr ""
+
+#: options.php:7
+msgid "Your Google Account"
+msgstr ""
+
+#: options.php:10
+msgid "Your Google Login"
+msgstr ""
+
+#: options.php:14
+msgid "Your Google Password"
+msgstr ""
+
+#: options.php:19
+msgid "Manage Cache"
+msgstr ""
+
+#: options.php:22
+msgid "Cache Directory"
+msgstr ""
+
+#: options.php:25
+msgid "Remember : The cache directory must be writable ! "
+msgstr ""
+
+#: options.php:29
+msgid "Cache Lifetime"
+msgstr ""
+
+#: options.php:33
+msgid ""
+"Integer : the number of seconds cache is not updated, 7200 means 2 hours"
+msgstr ""
+
+#: options.php:40
+msgid "Save Changes"
+msgstr ""
+
+#: WidgetGoogleReader.php:13
+msgid "Add your Google Reader items to your blog"
+msgstr ""
+
+#: WidgetGoogleReader.php:75
+msgid "An Error Occured please check your settings"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Integrate your Google Reader items to your blog sidebar"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Rémi Goyard"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.mimiz.fr/"
+msgstr ""

@@ -1,0 +1,134 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Google Reader Plugin 1.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/google-reader\n"
+"POT-Creation-Date: 2010-10-31 19:02+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Rémi Goyard <rgoyard@gmail.com>\n"
+"Language-Team: mimiz.fr\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: France\n"
+
+#: form.php:6
+msgid "Title"
+msgstr "Titre"
+
+#: form.php:10
+msgid "Cache"
+msgstr "Cache"
+
+#: form.php:25
+msgid "Number of elements to retreive "
+msgstr "Nombre d'élément à récupérer"
+
+#: form.php:29
+msgid "Type"
+msgstr "Type"
+
+#: form.php:37
+msgid "Tag Name"
+msgstr "Nom du tag"
+
+#: form.php:41
+msgid "You must define your google account, go to Settings / Google Reader ..."
+msgstr "Vous devez définir votre compte Google, allez dans Paramètres / Google Reader"
+
+#: google-reader.php:43
+msgid "GOOGLE READER  : Plugin WP-ZFF Zend Framework Full is needed please install it !"
+msgstr "GOOGLE READER  : Le plugin WP-ZFF Zend Framework Full est requis, intallez le !"
+
+#. #-#-#-#-#  google-reader.pot (Google Reader 1.0)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: google-reader.php:64
+#: options.php:3
+msgid "Google Reader"
+msgstr "Google Reader"
+
+#: google-reader.php:80
+msgid "<p>You must provide your Google Account information, ie, your Login(email) / Password.<br />you can acces these informations :</p><ul><li><strong>starred</strong> : Items starred in Google Reader</li><li><strong>shared</strong> : Items shared in Google Reader</li><li><strong>tag</strong> : items tagged with specific tag</li><li><strong>read</strong> : Items read in Google Reader</li><li><strong>reading-list</strong> : Items in the reading list</li></ul><p>just try ...</p><p>Getting Google Reader items may be quite long, so use cache to save data and not reload items from google for every user</p><p>You must provide a full path to a writable directory</p>"
+msgstr "<p>Vous devez fournir votre compte  Google Account , ie,  votre Login(email) / Password.<br />Vous pouvez accéder aux elements Google Reader suivant :  :</p><ul><li><strong>starred</strong> : Vos éléments favoris</li><li><strong>shared</strong> : Vos eléments partagés</li><li><strong>tag</strong> : Les éléments ayant un tag spécifique</li><li><strong>read</strong> : Vos éléments lus dans  Google Reader</li><li><strong>reading-list</strong> : La liste de lecture</li></ul><p>Essayer ...</p><p>Récupérer les éléments depuis Google Reader peut être assez long, utilisez le cache pour accélérer le chargement.</p><p>Vous devez fournir un chemin complet vers un répertoire accéssible en écriture</p>"
+
+#: GoogleReaderSettingsValidator.php:19
+msgid "Your Google Login must be a valid email address. Please enter a valid email address."
+msgstr "Votre login Google doit être une adresse email valide"
+
+#: GoogleReaderSettingsValidator.php:80
+#, php-format
+msgid "%s is not a valid directory"
+msgstr "%s n'est pas un répertoire valide"
+
+#: GoogleReaderSettingsValidator.php:88
+#, php-format
+msgid "%s is required"
+msgstr "%s est obligatoire"
+
+#: GoogleReaderSettingsValidator.php:91
+#, php-format
+msgid "Directory %s is not writable, please set permission at least to 755"
+msgstr "Le répertoire %s n'est pas accéssible en écriture, définissez les permissions à 755"
+
+#: GoogleReaderSettingsValidator.php:94
+#, php-format
+msgid "%s is not a valid integer"
+msgstr "%s n'est pas un entier valide"
+
+#: options.php:7
+msgid "Your Google Account"
+msgstr "Votre compte Google"
+
+#: options.php:10
+msgid "Your Google Login"
+msgstr "Votre login Google"
+
+#: options.php:14
+msgid "Your Google Password"
+msgstr "Votre password Google"
+
+#: options.php:19
+msgid "Manage Cache"
+msgstr "Gérer le cache"
+
+#: options.php:22
+msgid "Cache Directory"
+msgstr "Répertoire de cache"
+
+#: options.php:25
+msgid "Remember : The cache directory must be writable ! "
+msgstr "Rappel : le répertoire de cache doit être accessible en écriture"
+
+#: options.php:29
+msgid "Cache Lifetime"
+msgstr "Durée de vie du cache"
+
+#: options.php:33
+msgid "Integer : the number of seconds cache is not updated, 7200 means 2 hours"
+msgstr "Entier : le nombre de secondes avant de rechager depuis Google Reader (7200 représente 2 heures)"
+
+#: options.php:40
+msgid "Save Changes"
+msgstr "Enregistrer"
+
+#: WidgetGoogleReader.php:13
+msgid "Add your Google Reader items to your blog"
+msgstr "Ajouter vos élèments Google Reader à votre Blog"
+
+#: WidgetGoogleReader.php:75
+msgid "An Error Occured please check your settings"
+msgstr "Une erreur est survenue, vérifiez vos paramètres"
+
+#. Description of the plugin/theme
+msgid "Integrate your Google Reader items to your blog sidebar"
+msgstr "Ajoute vos éléments Google Reader à la sidebar de votre blog"
+
+#. Author of the plugin/theme
+msgid "Rémi Goyard"
+msgstr "Rémi Goyard"
+
+#. Author URI of the plugin/theme
+msgid "http://www.mimiz.fr/"
+msgstr "http://www.mimiz.fr/"
+
